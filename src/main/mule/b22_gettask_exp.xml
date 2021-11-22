@@ -36,6 +36,7 @@ payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="a57f248c-47a1-4ca3-8643-e7c3b5dd5399" message="Log----- #[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="1948d918-e490-4d24-bff8-28ce24d60690" />
 	</sub-flow>
 	<sub-flow name="post" doc:id="cd2fb6fe-becc-4e7d-9e26-e475505887e7" >
 		<file:read doc:name="Read" doc:id="29bb9321-ec64-4164-9e95-1d6c2e4b39dd" config-ref="File_Config" path="post.txt" outputMimeType="application/json"/>
